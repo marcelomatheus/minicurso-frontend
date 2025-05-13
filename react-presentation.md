@@ -1,3 +1,161 @@
+---
+marp: true
+theme: default
+paginate: true
+author: Marcelo Oliveira & Bernardo Mendes
+footer: 'Minicurso Frontend Moderno'
+transition: slide
+style: |
+  :root {
+    --primary: rgb(202, 158, 12);
+    --primary-hover: rgb(255, 234, 0);
+    --secondary: rgb(255, 242, 123);
+    --bg-dark: #121212;
+    --bg-medium: #2a2a2a;
+    --text-light: rgb(212, 212, 212);
+    --text-muted: #bbbbbb;
+    --code-bg: rgba(12, 12, 12, 0.9);
+    --padding-sm: 0.8em;
+    --padding-md: 1.2em;
+    --padding-lg: 1.5em;
+    --gap-md: 20px;
+    --gap-lg: 30px;
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-lg: 30px;
+    --transition-fast: 0.3s;
+    --transition-normal: 0.5s;
+    --transition-slow: 0.8s;
+    --shadow-sm: 0 4px 8px rgba(0,0,0,0.2);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+    --hover-scale: 1.05;
+    --hover-scale-lg: 1.1;
+  }
+
+  section {
+    background-image: linear-gradient(to bottom right, var(--bg-dark), var(--bg-medium));
+    color: var(--text-light);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3 {
+    color: var(--primary);
+    margin-bottom: 0.8em;
+  }
+
+  h2 {
+    transition: var(--transition-normal);
+  }
+
+  h2:hover {
+    scale: var(--hover-scale);
+    color: var(--primary-hover);
+    transition: var(--transition-fast);
+    cursor: pointer;
+  }
+
+  header {
+    color: var(--text-muted);
+    font-size: 0.9em;
+  }
+
+  pre {
+    background-color: var(--code-bg) !important;
+    padding: var(--padding-md);
+    border-radius: var(--radius-sm);
+    color: var(--text-light);
+    font-size: 0.85em;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--primary);
+    overflow-x: auto;
+    transition: var(--transition-normal);
+  }
+
+  pre:hover {
+    scale: var(--hover-scale);
+    transition: var(--transition-normal);
+  }
+
+  pre > code:hover {
+    background-color: transparent !important;
+    color: var(--text-light);
+  }
+
+  code {
+    font-family: 'Fira Code', monospace !important;
+    padding: 0.2em 0.4em;
+    border-radius: var(--radius-md);
+    transition: var(--transition-normal);
+  }
+
+  code:hover {
+    background-color: var(--primary);
+    color: var(--text-light);
+    transition: var(--transition-normal);
+  }
+
+  .icon-row {
+    display: flex;
+    gap: var(--gap-lg);
+    margin: 2em 0;
+  }
+
+  .icon {
+    transition: transform var(--transition-fast);
+  }
+
+  a {
+    color: var(--primary);
+  }
+  
+  img {
+    transition: transform var(--transition-fast);
+  }
+
+  img:hover {
+    transform: scale(var(--hover-scale-lg));
+    transition: transform var(--transition-fast);
+  }
+
+  li {
+    transition: transform var(--transition-fast);
+  }
+
+  li:hover {
+    transform: scale(var(--hover-scale));
+    cursor: pointer;
+    transition: transform var(--transition-fast);
+    color: var(--primary);
+  }
+
+  img.border {
+    border-radius: var(--radius-lg);
+  }
+
+  .icon:hover {
+    transform: scale(var(--hover-scale-lg));
+  }
+
+  .highlight {
+    color: var(--primary);
+    font-weight: bold;
+  }
+
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+  }
+
+  .card {
+    background: rgba(255,255,255,0.1);
+    font-size: 18px;
+    padding: var(--padding-sm);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+---
+
 <div class="icon-row">
   <img class="icon" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
   <img class="icon" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
