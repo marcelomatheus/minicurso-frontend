@@ -5,9 +5,7 @@ paginate: true
 author: Marcelo Oliveira & Bernardo Mendes
 footer: 'Minicurso Frontend Moderno'
 transition: slide
----
-
-<style>
+style: |
   :root {
     --primary: rgb(202, 158, 12);
     --primary-hover: rgb(255, 234, 0);
@@ -17,7 +15,6 @@ transition: slide
     --text-light: rgb(212, 212, 212);
     --text-muted: #bbbbbb;
     --code-bg: rgba(12, 12, 12, 0.9);
-    
     --padding-md: 1.2em;
     --padding-lg: 1.5em;
     --gap-md: 20px;
@@ -25,11 +22,9 @@ transition: slide
     --radius-sm: 8px;
     --radius-md: 10px;
     --radius-lg: 30px;
-    
     --transition-fast: 0.3s;
     --transition-normal: 0.5s;
     --transition-slow: 0.8s;
-    
     --shadow-sm: 0 4px 8px rgba(0,0,0,0.2);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
     --hover-scale: 1.05;
@@ -74,24 +69,24 @@ transition: slide
     overflow-x: auto;
     transition: var(--transition-normal);
   }
-  
+
   pre:hover {
     scale: var(--hover-scale);
     transition: var(--transition-normal);
   }
-  
+
   pre > code:hover {
     background-color: transparent !important;
     color: var(--text-light);
   }
-  
+
   code {
     font-family: 'Fira Code', monospace !important;
     padding: 0.2em 0.4em;
     border-radius: var(--radius-md);
     transition: var(--transition-normal);
   }
-  
+
   code:hover {
     background-color: var(--primary);
     color: var(--text-light);
@@ -103,12 +98,12 @@ transition: slide
     gap: var(--gap-lg);
     margin: 2em 0;
   }
-  
+
   .icon {
     transition: transform var(--transition-fast);
   }
 
-  img {    
+  img {
     transition: transform var(--transition-fast);
   }
 
@@ -117,7 +112,7 @@ transition: slide
     transition: transform var(--transition-fast);
   }
 
-  li {    
+  li {
     transition: transform var(--transition-fast);
   }
 
@@ -127,38 +122,36 @@ transition: slide
     transition: transform var(--transition-fast);
     color: var(--primary);
   }
-  
+
   img.border {
     border-radius: var(--radius-lg);
   }
-  
+
   .icon:hover {
     transform: scale(var(--hover-scale-lg));
   }
-  
+
   .highlight {
     color: var(--primary);
     font-weight: bold;
   }
-  
+
   .two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap-md);
   }
-  
+
   .card {
     background: rgba(255,255,255,0.1);
     padding: var(--padding-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
   }
-</style>
-
+---
 
 <div class="icon-row">
   <img class="icon" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-  <img class="icon" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
   <img class="icon" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
 </div>
 
