@@ -31,12 +31,15 @@ https://www.linkedin.com/in/bernardomennndes
 
 ## Agenda do Minicurso
 
+### Parte 1
 1. Fundamentos do JavaScript Moderno
 2. React: Conceitos Essenciais
-3. Gerenciamento de Estado
-4. Boas Práticas e Padrões
-5. Ferramentas do Ecossistema
-6. Projeto Prático
+3. Praticando JS
+
+### Parte 2
+1. Boas Práticas e Padrões
+2. Ferramentas do Ecossistema
+3. Projeto Prático
 
 ---
 
