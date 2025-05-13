@@ -29,7 +29,7 @@ style: |
     --shadow-sm: 0 4px 8px rgba(0,0,0,0.2);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
     --hover-scale: 1.05;
-    --hover-scale-lg: 1.2;
+    --hover-scale-lg: 1.1;
   }
 
   section {
@@ -437,20 +437,7 @@ useEffect(() => {
 
 ---
 
-## 19. Ciclo do React
-Ciclo
-
----
-
-## 20. Bibliotecas importantes
-
-- **React Router**: navegação SPA
-- **Axios**: requisições HTTP
-- **ESLint**: verificação de padrões e erros de código
-
----
-
-## 21. Renderização de componentes
+## 19. Renderização de componentes
 
 - Baseada em props e estado
 - Re-renderiza ao mudar o estado
@@ -461,11 +448,22 @@ Ciclo
 
 ---
 
+## 20. Ciclo de renderização de uma aplicação JS pura
+
+<img src="https://lh3.googleusercontent.com/pw/AP1GczPVgS2BjREJ0WQynab15mL4mes_lv6XhP9QFQGC_nyeSe_EGu0PWsogwTY4kD8z2N81zaC7TLZ7aoXX9h6qWwt35UPy-kUwgUAG6Doz6r8joPQ107Z-xQZK2oPLu26eN4Rt7rpNb92OXuhl3NwgdKqj4A=w1165-h583-s-no-gm?authuser=0" width="1000px"/>
+
+---
+
+## 21. Ciclo de renderização de uma aplicação React
+<img src="https://lh3.googleusercontent.com/pw/AP1GczP2MsCfxBmIAl0yjbs9mYWGdVIVaqZA0eSUzrHOYc-nz7XR6Nt7BQY2oeDN-PZ0YR7tFOpyjq1WL4_lEpJU55gnvYHA_hroqKokTCBCBbiW_-fjMlWyiDiCG6C_gxDaOOQ5CqxtOAIadZpM_0EQamZYpw=w1295-h299-s-no-gm?authuser=0" width="100%"/>
+
+---
+
 ## 22. Compilando React
 
-- Transpila JSX para JS puro com Babel
-- Empacota arquivos com Webpack/Vite
-- `npm run build` gera versão otimizada para produção
+- JSX não é compreendido nativamente pelo navegador
+- O React Compiler transforma JSX em JS
+- O navegador interpreta o bundle (conjunto de js e html) para gerar o DOM
 
 ---
 
@@ -485,6 +483,13 @@ my-app/
 - `App.jsx`: componente principal
 - `index.js`: ponto de entrada
 - Separação por componentes e páginas
+
+---
+
+## 24. Build tools e frameworks
+
+- Vite: Usado para inicializar projetos front-end com configurações de eficiência pré-definidas.
+- Next: Next.js é um framework React com foco em performance, SEO e renderização no servidor (SSR).
 
 ---
 
