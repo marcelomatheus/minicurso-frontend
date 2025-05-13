@@ -15,6 +15,7 @@ style: |
     --text-light: rgb(212, 212, 212);
     --text-muted: #bbbbbb;
     --code-bg: rgba(12, 12, 12, 0.9);
+    --padding-sm: 0.8em;
     --padding-md: 1.2em;
     --padding-lg: 1.5em;
     --gap-md: 20px;
@@ -103,6 +104,10 @@ style: |
     transition: transform var(--transition-fast);
   }
 
+  a {
+    color: var(--primary);
+  }
+  
   img {
     transition: transform var(--transition-fast);
   }
@@ -137,14 +142,15 @@ style: |
   }
 
   .two-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: var(--gap-md);
   }
 
   .card {
     background: rgba(255,255,255,0.1);
-    padding: var(--padding-lg);
+    font-size: 18px;
+    padding: var(--padding-sm);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
   }
@@ -163,18 +169,18 @@ style: |
 
 <div class="two-columns">
 
+
 <div class="card">
 Marcelo Oliveira<br/>
-Engenheiro de Software <br/>@ Nocorp Applied
+Engenheiro de Software Jr | Nocorp Applied
 
-- [![w:20](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png) /marcelooliveiradev](https://www.linkedin.com/in/marcelooliveiradev)
+https://www.linkedin.com/in/marcelooliveiradev
 </div>
-
 <div class="card">
 Bernardo Mendes<br/>
-Engenheiro de Software <br/>@ Blips Ativos
+Engenheiro de Software Pl | Blips Ativos
 
-- [![w:20](https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png) /bernardomennndes](https://www.linkedin.com/in/bernardomennndes)
+https://www.linkedin.com/in/bernardomennndes
 </div>
 
 </div>
