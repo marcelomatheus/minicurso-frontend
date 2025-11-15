@@ -18,12 +18,6 @@ Engenheiro de Software Jr | Nocorp Applied
 
 https://www.linkedin.com/in/marcelooliveiradev
 </div>
-<div class="card">
-Bernardo Mendes<br/>
-Engenheiro de Software Pl | Blips Ativos
-
-https://www.linkedin.com/in/bernardomennndes
-</div>
 
 </div>
 
